@@ -1,4 +1,4 @@
-# Implementation of a Hybrid Fault-Tolerant Architecture in Hardware Description Language
+# Implementation of a Hybrid Fault-Tolerant Architecture in Hardware Description Language(VHDL)
 
 ## Overview
 
