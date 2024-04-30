@@ -11,7 +11,7 @@ In this project, we implemented the architecture proposed by Tran (2011) using h
   
 - **Fault Injection**: We conducted fault injection experiments to evaluate the robustness of the architecture under various fault conditions. An example of a fault injection setup is shown below:
 
-![Fault Injection Setup](images/fault_injection_setup.png)
+![Fault Injection Setup](Images/fault_injection_setup.png)
 
 - **Performance Evaluation**: We performed performance evaluation tests to assess the effectiveness of the fault-tolerant mechanisms in the architecture.
   
