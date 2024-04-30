@@ -12,7 +12,7 @@ In this project, we implemented the architecture proposed by Tran (2011) using h
 
 - **Fault Injection**: We conducted fault injection experiments to evaluate the robustness of the architecture under various fault conditions. An example of a fault injection setup is shown below:
 
-  <img src="Images/fault_injection_setup.png" width="300">
+  <img src="Images/fault_injection_setup.png" width="500">
 
 - **Principal Architecture Representation**: The architecture is represented in the `src/principal.vhd` file code. This file serves as the main implementation of the fault-tolerant architecture.
 
