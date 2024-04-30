@@ -15,14 +15,9 @@ This project aims to implement a Hybrid Fault-Tolerant Architecture using hardwa
 ## Technologies Used
 
 - Hardware Description Language (HDL) (e.g., Verilog, VHDL)
-- FPGA/ASIC for hardware implementation
-- Simulation tools (e.g., ModelSim, Xilinx Vivado)
-- Testing and verification tools (e.g., FPGA test benches)
+- Simulation tools : Xilinx Vivado
+- Testing and verification tools : test benches
 
 ## References
 
-- Smith, J. (Year). *Title of the First Thesis.* University A. [Link to First Thesis if available]
-
-- Johnson, A. (Year). *Title of the Second Thesis.* University B. [Link to Second Thesis if available]
-
-- Garcia, M. (Year). *Title of the Third Thesis.* University C. [Link to Third Thesis if available]
+- Tran, Duc Anh. (2011). *A Hybrid Fault Tolerant Architecture for Robustness Improvement of Digital Circuits.[DOI: 10.1109/ats.2011.89](https://doi.org/10.1109/ats.2011.89)
