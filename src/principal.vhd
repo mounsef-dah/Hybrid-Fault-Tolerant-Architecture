@@ -128,11 +128,11 @@ signal tmp_7, tmp_71, tmp_72, tmp_8, tmp_81, tmp_82, tmp_9, tmp_91, tmp_92, tmp_
 begin
 
 reg1: shadow_reg port map (clk, CLKRegin, CRegin, D, tmp_21);
-add_delay_dff1_inst : add_delay_dff1 port map(tmp_21,'0',tmp_22); -- retard registre entree
+add_delay_dff1_inst : add_delay_dff1 port map(tmp_21,'0',tmp_22); -- retard registre d'entree
 Demux1: DeMux port map(tmp_22, tmp_3, tmp_4, tmp_5, tmp_6);
 -- ------------
 cl1 : add2 port map(tmp_4(3 downto 2), tmp_4(1 downto 0), tmp_71);
-add_cl1 : add_delay_cl port map(tmp_71,'1',tmp_72);
+add_cl1 : add_delay_cl port map(tmp_71,'1',tmp_72);   -- Logic circuit delay
 cl2 : add2 port map(tmp_5(3 downto 2), tmp_5(1 downto 0), tmp_81);
 add_cl2 : add_delay_cl port map(tmp_81,'1',tmp_82);
 cl3 : add2 port map(tmp_6(3 downto 2), tmp_6(1 downto 0), tmp_91);
