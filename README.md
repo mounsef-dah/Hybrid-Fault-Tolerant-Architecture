@@ -16,7 +16,7 @@ In this project, we implemented the architecture proposed by Tran (2011) using h
 
 - **Principal Architecture Representation**: The architecture is represented in the `src/principal.vhd` file code. This file serves as the main implementation of the fault-tolerant architecture.
 
-- **Simulation File Test Bench**: The simulation file test bench is `sim/principal_tb.vhd`, which is used for testing and verification of the implemented architecture.
+- **Simulation File Test Bench**: The simulation file test bench is `sim/principal_tb.vhd`, which is used for testing and verification of the implemented architecturewith a 2-bit adder example.
 
 - **Performance Evaluation**: We performed performance evaluation tests to assess the effectiveness of the fault-tolerant mechanisms in the architecture.
 
